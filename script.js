@@ -10,23 +10,23 @@ if(bgImage){
 
 const images = [
 
-"images/featured/f1.jpg",
-"images/featured/f2.jpg",
-"images/featured/f3.jpg",
-"images/featured/f4.jpg",
-"images/featured/f5.jpg",
-"images/featured/f6.jpg",
-"images/featured/f7.jpg",
-"images/featured/f8.jpg",
-"images/featured/f9.jpg",
-"images/featured/f10.jpg",
-"images/featured/f11.jpg",
-"images/featured/f12.jpg",
-"images/featured/f13.jpg",
-"images/featured/f14.jpg",
-"images/featured/f15.jpg",
-"images/featured/f16.jpg",
-"images/featured/f17.jpg"
+"f1.jpg",
+"f2.jpg",
+"f3.jpg",
+"f4.jpg",
+"f5.jpg",
+"f6.jpg",
+"f7.jpg",
+"f8.jpg",
+"f9.jpg",
+"f10.jpg",
+"f11.jpg",
+"f12.jpg",
+"f13.jpg",
+"f14.jpg",
+"f15.jpg",
+"f16.jpg",
+"f17.jpg"
 
 ]
 
@@ -70,7 +70,7 @@ for(let i=1;i<=96;i++){
 
 let img = document.createElement("img")
 
-img.src = `images/gallery/g${i}.jpg`
+img.src = `g${i}.jpg`
 img.loading = "lazy"
 
 galleryContainer.appendChild(img)
@@ -161,5 +161,6 @@ bgImage.style.transform =
 })
 
 }
+
 
 })
